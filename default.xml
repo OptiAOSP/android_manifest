@@ -8,14 +8,15 @@
            revision="refs/tags/android-6.0.1_r13" />
 
 
-  <remote name="bitbucket"
-	fetch="https://bitbucket.org" />
+  <remote name="bitbucket"  
+           fetch="https://bitbucket.org" />
 
   <remote  name="chrono"
            fetch="https://github.com/ChronoMonochrome" />
 
   <remote  name="optiaosp"
-           fetch="https://github.com/OptiAOSP" />
+           fetch="https://github.com/OptiAOSP" 
+           revision="opti-6.0" />
 
   <remote  name="omnirom"
            review="gerrit.omnirom.org"
@@ -162,7 +163,11 @@
 <!--
   <project path="frameworks/base" name="android_frameworks_base" remote="mw" revision="aosp-6.0" groups="pdk-cw-fs,pdk-fs"  clone-depth="1" />
 -->
+<!--
   <project path="frameworks/base" name="platform/frameworks/base" remote="aosp" groups="pdk-cw-fs,pdk-fs"  clone-depth="1" />
+-->
+  <project path="frameworks/base" name="android_frameworks_base" remote="optiaosp" groups="pdk-cw-fs,pdk-fs"  clone-depth="1" />
+
 
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" clone-depth="1" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" clone-depth="1" />
@@ -195,7 +200,11 @@
 <!--
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="mw" revision="aosp-6.0" groups="pdk"  clone-depth="1" />
 -->
+<!--
   <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" remote="aosp" groups="pdk"  clone-depth="1" />
+-->
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="optiaosp" groups="pdk"  clone-depth="1" />
+
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="frameworks/opt/setupwizard" name="CyanogenMod/android_frameworks_opt_setupwizard" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
 
