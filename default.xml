@@ -16,9 +16,9 @@
   <remote  name="chrono"
            fetch="https://github.com/ChronoMonochrome" />
 
-  <remote  name="ultimate"
+  <remote  name="ulti"
 	   fetch="https://github.com/UltimateROM" 
-           revision="android-5.1" />
+           revision="ulti-5.1" />
 
   <remote  name="omnirom"
            review="gerrit.omnirom.org"
@@ -53,7 +53,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="Chronomonochrome/android" remote="github" revision="cm12.1-omni" />
+  <project path="android" name="android_manifest" remote="ulti" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk"  clone-depth="1" />
 <!--  <project path="art" name="art" remote="optipop" revision="opti-5.1" groups="pdk"  clone-depth="1" /> -->
@@ -371,7 +371,7 @@
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp"  clone-depth="1" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av"  remote="github" revision="cm-12.1" groups="pdk"  clone-depth="1" />
 <!--  <project path="frameworks/av" name="android_frameworks_av"  remote="omnirom" revision="android-5.1" groups="pdk"  clone-depth="1" />  -->
-  <project path="frameworks/base" name="android_frameworks_base" remote="ultimate" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="ulti" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk"  clone-depth="1" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk"  clone-depth="1" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk"  clone-depth="1" />
@@ -461,7 +461,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision"  clone-depth="1" remote="aosp"  />
   <project path="packages/apps/QuickSearchBox" name="android_packages_apps_QuickSearchBox" remote="omnirom" revision="android-5.1"  clone-depth="1"  />
 -->
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ultimate" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ulti" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService"  clone-depth="1" remote="aosp" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder"  clone-depth="1" remote="aosp" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts"  clone-depth="1" remote="aosp" />
