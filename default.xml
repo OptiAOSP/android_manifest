@@ -295,7 +295,9 @@
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs"  clone-depth="1"   remote="aosp" />
 -->
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" groups="pdk-fs"  clone-depth="1"   remote="aosp" />
+<!--
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs"  clone-depth="1"   remote="aosp" />
+-->
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs"  clone-depth="1"   remote="aosp" />
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" groups="pdk-fs"  clone-depth="1"   remote="aosp" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs"  clone-depth="1"   remote="aosp" />
@@ -321,8 +323,10 @@
 <!--
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" groups="pdk-fs"  clone-depth="1"   remote="aosp" />
 -->
+<!--
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs"  clone-depth="1"   remote="aosp" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs"  clone-depth="1"   remote="aosp" />
+-->
   <project path="packages/experimental" name="platform/packages/experimental"  clone-depth="1"   remote="aosp" />
 <!--
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs"  clone-depth="1"   remote="aosp" />
@@ -358,6 +362,9 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" groups="pdk-fs"  clone-depth="1"   remote="aosp" />
 -->
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk" />
+
+  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" clone-depth="1" />
+
 <!--
   <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" clone-depth="1" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
@@ -370,7 +377,6 @@
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" clone-depth="1" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" clone-depth="1" />
-  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" clone-depth="1" />
   <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" clone-depth="1" />
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" clone-depth="1" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" groups="pdk-fs" clone-depth="1" />
