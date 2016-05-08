@@ -696,7 +696,6 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" revision="refs/tags/android-4.4.4_r2" groups="pdk,linux,arm"   remote="aosp" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm"   remote="aosp" clone-depth="1" />
 -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-google" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm"   remote="aosp" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm"   remote="aosp" clone-depth="1" revision="refs/tags/android-5.1.1_r35" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux"   remote="aosp" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8"  groups="pdk,linux"   remote="aosp" clone-depth="1" />
@@ -707,6 +706,7 @@
 -->
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk"   remote="aosp" clone-depth="1" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk"   remote="aosp" clone-depth="1" />
+  <project path="prebuilts/ndk-lp" name="platform/prebuilts/ndk" groups="pdk"   remote="aosp" clone-depth="1" revision="refs/tags/android-5.1.1_r35" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs"   remote="aosp" clone-depth="1" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk"   remote="aosp" clone-depth="1" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools"  remote="aosp" clone-depth="1" />
@@ -722,12 +722,9 @@
   <project path="vendor/samsung/u8500-common" name="android_vendor_samsung_u8500-common" remote="chrono" revision="android-6.0"  clone-depth="1"  />
   <project path="device/samsung/codina" name="android_device_samsung_codina" remote="chrono" revision="ulti-6.0"  clone-depth="1"  />
   <project path="hardware/u8500" name="android_hardware_u8500" remote="chrono" revision="android-6.0"  clone-depth="1"  />
-<!-- 
- <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="ArchiDroid/Toolchain" remote="github" revision="linaro-4.9" />
- <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.2-linaro" name="ArchiDroid/Toolchain" remote="github" revision="linaro-5.2" /> 
- <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.2" name="arter97/arm-linux-androideabi-4.9" remote="github" revision="cm-12.0" /> 
--->
- <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-5.2" remote="chrono" revision="master" />
+<!-- <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="ArchiDroid/Toolchain" remote="github" revision="linaro-4.9" /> -->
+ <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arter97/arm-linux-androideabi-4.9" remote="github" revision="cm-12.0" />
+ <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.2" name="arm-linux-androideabi-5.2" remote="chrono" revision="master" />
  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" name="Toolchain" remote="chrono" revision="armv7a-linux-gnueabihf-5.2" />
  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3" name="UBERTC/arm-linux-androideabi-5.3" remote="bitbucket" revision="master" />
 <!--
