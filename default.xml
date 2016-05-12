@@ -308,6 +308,8 @@
 <!--
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs"  clone-depth="1"   remote="aosp" />
 -->
+  <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" clone-depth="1" remote="ulti" revision="android-6.0" />
+
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs"  clone-depth="1"   remote="aosp" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" clone-depth="1"   remote="aosp" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs"  clone-depth="1"   remote="aosp" />
