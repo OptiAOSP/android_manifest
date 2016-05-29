@@ -180,6 +180,7 @@
   <project path="frameworks/opt/bitmap" name="CyanogenMod/android_frameworks_opt_bitmap" groups="pdk-fs" clone-depth="1" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
+  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="ulti" revision="marshmallow" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="frameworks/opt/chips" name="CyanogenMod/android_frameworks_opt_chips" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="frameworks/opt/datetimepicker" name="CyanogenMod/android_frameworks_opt_datetimepicker" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
@@ -283,7 +284,7 @@
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" groups="pdk-fs" clone-depth="1"  remote="aosp" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs"  clone-depth="1"  remote="aosp" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs"  clone-depth="1"  remote="aosp" />
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs"  clone-depth="1"  remote="aosp" />
+  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs"  clone-depth="1"  remote="aosp" revision="android-5.1.1_r35" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs"  clone-depth="1"  remote="aosp" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs"  clone-depth="1"   remote="aosp" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs"  clone-depth="1"   remote="aosp" />
@@ -451,7 +452,7 @@
 
 
   <project path="system/bt" name="platform/system/bt" remote="aosp" groups="pdk" clone-depth="1" />
-  <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" clone-depth="1" />
+  <project path="system/core" name="android_system_core" remote="ulti" clone-depth="1" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" clone-depth="1" />
 <!--
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" clone-depth="1" />
@@ -535,7 +536,7 @@
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk-fs" remote="aosp" clone-depth="1" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" remote="aosp" clone-depth="1" />
-  <project path="external/glide" name="platform/external/glide" groups="pdk-fs" remote="aosp" clone-depth="1" />
+  <project path="external/glide" name="platform/external/glide" groups="pdk-fs" remote="aosp" revision="android-5.1.1_r35" clone-depth="1" />
   <project path="external/google-breakpad" name="platform/external/google-breakpad" groups="dragon" remote="aosp" clone-depth="1" />
   <project path="external/google-fonts/carrois-gothic-sc" name="platform/external/google-fonts/carrois-gothic-sc" groups="pdk-cw-fs,pdk-fs" remote="aosp" clone-depth="1" />
   <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" groups="pdk-cw-fs,pdk-fs" remote="aosp" clone-depth="1" />
