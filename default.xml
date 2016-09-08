@@ -284,7 +284,7 @@
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" groups="pdk-fs" clone-depth="1"  remote="aosp" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs"  clone-depth="1"  remote="aosp" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs"  clone-depth="1"  remote="aosp" />
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs"  clone-depth="1"  remote="aosp" revision="android-5.1.1_r35" />
+  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs"  clone-depth="1"  remote="aosp" revision="refs/tags/android-5.1.1_r38" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs"  clone-depth="1"  remote="aosp" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs"  clone-depth="1"   remote="aosp" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs"  clone-depth="1"   remote="aosp" />
@@ -536,7 +536,7 @@
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk-fs" remote="aosp" clone-depth="1" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" remote="aosp" clone-depth="1" />
-  <project path="external/glide" name="platform/external/glide" groups="pdk-fs" remote="aosp" revision="android-5.1.1_r35" clone-depth="1" />
+  <project path="external/glide" name="platform/external/glide" groups="pdk-fs" remote="aosp" revision="refs/tags/android-5.1.1_r38" clone-depth="1" />
   <project path="external/google-breakpad" name="platform/external/google-breakpad" groups="dragon" remote="aosp" clone-depth="1" />
   <project path="external/google-fonts/carrois-gothic-sc" name="platform/external/google-fonts/carrois-gothic-sc" groups="pdk-cw-fs,pdk-fs" remote="aosp" clone-depth="1" />
   <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" groups="pdk-cw-fs,pdk-fs" remote="aosp" clone-depth="1" />
