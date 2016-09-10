@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-6.0.1_r30" />
+           revision="refs/tags/android-6.0.1_r66" />
 
 
   <remote name="bitbucket"
@@ -92,8 +92,8 @@
   <project path="external/elfutils" name="CyanogenMod/android_external_elfutils" groups="pdk" clone-depth="1" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" clone-depth="1" />
   <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" groups="pdk" clone-depth="1" />
-  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" clone-depth="1" />
-  <project path="external/flac" name="CyanogenMod/android_external_flac" groups="pdk" clone-depth="1" />
+  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" />
+  <project path="external/flac" name="CyanogenMod/android_external_flac" groups="pdk" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" clone-depth="1" />
   <project path="external/google" name="CyanogenMod/android_external_google" clone-depth="1" />
@@ -114,7 +114,7 @@
   <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" clone-depth="1" />
   <project path="external/libnfnetlink" name="CyanogenMod/android_external_libnfnetlink" clone-depth="1" />
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" clone-depth="1" />
-  <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" clone-depth="1" />
+  <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" />
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" clone-depth="1" />
   <project path="external/libtar" name="CyanogenMod/android_external_libtar" clone-depth="1" />
   <project path="external/libusb" name="CyanogenMod/android_external_libusb" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
@@ -147,7 +147,7 @@
   <project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" clone-depth="1" />
   <project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" groups="pdk" clone-depth="1" />
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" clone-depth="1" />
-  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" clone-depth="1" />
+  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" groups="pdk" clone-depth="1" />
@@ -161,14 +161,14 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" clone-depth="1" />
   <project path="external/zip" name="CyanogenMod/android_external_zip" clone-depth="1" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" clone-depth="1" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="ulti" groups="pdk" clone-depth="1" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="ulti" groups="pdk" />
 <!--
   <project path="frameworks/av" name="platform/frameworks/av" remote="aosp" groups="pdk" clone-depth="1" />
 -->
 <!--
   <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
 -->
-  <project path="frameworks/base" name="android_frameworks_base" remote="ulti" revision="ulti-6.0" groups="pdk-cw-fs,pdk-fs"  clone-depth="1" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="ulti" revision="ulti-6.0" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" clone-depth="1" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" clone-depth="1" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" clone-depth="1" />
@@ -176,7 +176,7 @@
   <project path="frameworks/minikin" name="CyanogenMod/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="frameworks/multidex" name="CyanogenMod/android_frameworks_multidex" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="ulti" groups="pdk" clone-depth="1" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="ulti" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="CyanogenMod/android_frameworks_opt_bitmap" groups="pdk-fs" clone-depth="1" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
@@ -203,7 +203,7 @@
 <!--
   <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" clone-depth="1" />
 -->
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ulti" revision="ulti-6.0" groups="pdk" clone-depth="1" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ulti" revision="ulti-6.0" />
 
   <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
@@ -227,8 +227,8 @@
   <project path="hardware/intel/img/psb_video" name="CyanogenMod/android_hardware_intel_img_psb_video" groups="intel" clone-depth="1" />
 -->
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" clone-depth="1" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="ulti" groups="pdk" clone-depth="1" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" clone-depth="1" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="ulti" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
 <!--
   <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" clone-depth="1" />
   <project path="hardware/qcom/audio-caf/apq8084" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-13.0-caf-8084" clone-depth="1" />
@@ -263,7 +263,7 @@
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" clone-depth="1" />
   <project path="hardware/qcom/wlan-caf" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-13.0-caf" clone-depth="1" />
 -->
-  <project path="hardware/ril" name="android_hardware_ril"  remote="chrono" revision="android-6.0" clone-depth="1" />
+  <project path="hardware/ril" name="android_hardware_ril"  remote="chrono" revision="android-6.0" />
 <!--
   <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-13.0-caf" clone-depth="1" />
 -->
