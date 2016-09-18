@@ -263,7 +263,7 @@
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" clone-depth="1" />
   <project path="hardware/qcom/wlan-caf" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-13.0-caf" clone-depth="1" />
 -->
-  <project path="hardware/ril" name="android_hardware_ril"  remote="chrono" revision="android-6.0" />
+  <project path="hardware/ril" name="android_hardware_ril"  remote="chrono" revision="ulti-6.0" />
 <!--
   <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-13.0-caf" clone-depth="1" />
 -->
